@@ -2,6 +2,7 @@ body {
   background-image: url("images/eva-darron-oCdVtGFeDC0-unsplash.jpg");
   background-size: cover;
   font-family: Arial, sans-serif;
+  border-image-repeat: stretch;
 
 }
 
