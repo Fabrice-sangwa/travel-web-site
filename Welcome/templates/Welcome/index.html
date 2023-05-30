@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{% static 'Welcome/style.css'%}">
+</head>
+<body>
+    <div class="container">
+    <h1>Bienvenue sur notre site web de Voyage !</h1>
+    <p>Nous sommes ravis de vous accueillir.</p>
+    <p>Aujourd'hui nous sommes le {{date|date}}</p>
+    <a href="#" class="button">Commencer</a>
+  </div>
+</body>
+</html>
